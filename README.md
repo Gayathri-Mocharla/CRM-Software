@@ -1,26 +1,26 @@
+#  CRM Software
 
-# Book Management System
-
-A full-stack Book Management System developed to manage book records efficiently using PHP and MySQL. The system allows users to perform CRUD operations such as adding, updating, deleting, and viewing books through a simple and responsive interface.
+A full-stack Customer Relationship Management (CRM) Software developed using the MERN Stack to help businesses manage customer interactions, employee activities, sales records, and organizational workflow efficiently.
 
 ---
 
 #  Live Website
-https://crm-project-61tl.vercel.app/
 
+https://crm-project-61tl.vercel.app/
 
 
 ---
 
 #  Features
 
-- Add New Books
-- View Book Records
-- Update Book Details
-- Delete Books
-- Search Books
-- Database Connectivity
+- User Login & Signup
+- Customer Management
+- Employee Management
+- Sales Tracking
+- Dashboard Analytics
 - CRUD Operations
+- MongoDB Database Integration
+- Secure Authentication
 - Responsive User Interface
 
 ---
@@ -28,95 +28,112 @@ https://crm-project-61tl.vercel.app/
 #  Technologies Used
 
 ## Frontend
-- HTML
-- CSS
+- React.js
+- Vite
+- HTML5
+- CSS3
 - JavaScript
 
 ## Backend
-- PHP
+- Node.js
+- Express.js
 
 ## Database
-- MySQL
+- MongoDB Atlas
+- Mongoose
 
-## Tools & Platforms
-- XAMPP
-- phpMyAdmin
-- Visual Studio Code
+## Authentication
+- JWT Authentication
+- bcryptjs
+
+## Deployment
+- Vercel
+- Render
 - GitHub
 
 ---
 
-#  Project Setup
+# ⚙️ Project Setup
 
-## Clone Repository
+## Frontend
 
 ```bash
-git clone https://github.com/Gayathri-Mocharla/Book-Management-System.git
+cd frontend
+npm install
+npm run dev
 ```
 
 ---
 
-## Setup Project
-
-### Step 1
-Move the project folder into:
+## Backend
 
 ```bash
-C:\xampp\htdocs\
+cd backend
+npm install
+node server.js
 ```
 
-### Step 2
-Start Apache and MySQL in XAMPP.
+---
 
-### Step 3
-Open phpMyAdmin and create a database.
+#  Environment Variables
 
-### Step 4
-Import the SQL file into the database.
+Create a `.env` file inside the backend folder:
 
-### Step 5
-Run the project in browser:
-
-```bash
-http://localhost/Book-Management-System
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=5000
 ```
 
 ---
 
 #  Project Modules
 
-- Home Page
-- Add Book Module
-- Update Book Module
-- Delete Book Module
-- View/Search Books
+- Authentication Module
+- Dashboard Module
+- Customer Management
+- Employee Management
+- Sales Management
+- Reports & Analytics
+- Database Management
 
 ---
 
 #  Key Functionalities
 
-- Book Record Management
-- CRUD Operations
-- Database Integration
-- Easy Navigation
-- User-Friendly Interface
+- Secure User Authentication
+- Manage Customer Information
+- Track Employee Activities
+- Store and Retrieve Data Efficiently
+- Responsive Dashboard
+- Real-Time Database Operations
+- REST API Integration
+
+---
+
+#  Project Objective
+
+The main objective of this CRM Software is to simplify customer relationship management and business workflow by providing a centralized platform to manage customer records, employee data, and sales activities digitally.
 
 ---
 
 #  Future Enhancements
 
-- User Authentication
-- Admin Dashboard
-- Book Issue & Return System
-- Fine Calculation
-- Cloud Database Integration
+- Email Notification System
+- Advanced Reports & Analytics
+- Role-Based Access Control
+- Cloud File Storage
+- AI-Based Customer Insights
+- Mobile Application Support
 
 ---
 
-#  Developed By
+# Developed By
 
-Gayathri Mocharla  
+Gayathri Mocharla   
 
 B.Tech IT Student  
 
 VR Siddhartha Engineering College
+
+
