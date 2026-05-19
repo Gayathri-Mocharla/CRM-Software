@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+
+# production
+build
+
+# backend
+.gradle
+target
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE files
+.vscode
+.idea
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
